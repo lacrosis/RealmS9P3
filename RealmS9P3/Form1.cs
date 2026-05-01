@@ -94,7 +94,7 @@ namespace RealmS9P3
             }
         }
 
-        private string CalculateSymbol(string a, string b, string c, string d, int sectionId)
+        private string CalculateSymbol(string? a, string? b, string? c, string? d, int sectionId)
         {
             string combined = a + b + c + d;
             string instuction = string.Empty;
